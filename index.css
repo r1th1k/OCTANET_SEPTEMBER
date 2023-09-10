@@ -88,6 +88,7 @@
 }
 .what-our-travelers {
   position: absolute;
+  padding-top: 7%;
   width: 56%;
   top: 0;
   left: 22.93%;
@@ -135,11 +136,12 @@
   text-align: left;
 }
 .t1 {
-  top: 139px;
+  top: 30%;
   left: 130px;
   width: 345px;
   height: 450px;
 }
+
 .their-travel-guides {
   position: absolute;
   top: 263px;
@@ -159,7 +161,7 @@
 }
 .t2 {
   position: absolute;
-  top: 139px;
+  top: 30%;
   left: calc(50% - 173px);
   width: 345px;
   height: 450px;
@@ -187,14 +189,14 @@
   position: absolute;
 }
 .t3 {
-  top: 139px;
+  top: 30%;
   right: 130px;
   width: 345px;
   height: 450px;
 }
 .more {
   right: 46px;
-  bottom: 0;
+  bottom: 0px;
   font-size: var(--font-size-6xl);
   font-family: var(--font-inter);
   color: var(--color-white);
@@ -215,7 +217,7 @@
   background-color: transparent;
   border-radius: 50px;
   right: 179px;
-  bottom: 0;
+  bottom: 100px;
   width: 115px;
   height: 30px;
 }
@@ -227,11 +229,9 @@
 .mid-frame {
   position: absolute;
   width: 100%;
-  /* top: 815px; */
-  top: 890px;
+  top: 100vh;
   right: 0;
   left: 0;
-  /* height: 652px; */
   height: 100vh;
   font-size: var(--font-size-xl);
   font-family: var(--font-roboto);
@@ -241,9 +241,15 @@
   align-self: stretch;
   position: relative;
   font-weight: 600;
+  /* padding-bottom: 2%; */
+}
+.join-our-travel{
+  padding-bottom: 1%;
 }
 .get-exclusive-travel {
   font-size: var(--font-size-6xl);
+  padding-bottom: 6%;
+
 }
 .travimg-1-icon {
   align-self: stretch;
@@ -251,14 +257,16 @@
   border-radius: var(--br-11xl);
   max-width: 100%;
   overflow: hidden;
-  height: 400px;
+  height: 600px;
   flex-shrink: 0;
   object-fit: cover;
+  /* bottom: 0px; */
 }
 .join-our-travel-community-parent {
   position: absolute;
   width: 95.9%;
-  top: 0;
+  /* top: 0; */
+  bottom: 90px;
   right: 2.09%;
   left: 2.01%;
   display: flex;
@@ -270,7 +278,8 @@
 .bottom-frame-child {
   position: absolute;
   width: 100%;
-  top: 586px;
+  /* top: 586px; */
+  bottom: 0;
   right: 0;
   left: 0;
   background-color: #024538;
@@ -367,24 +376,25 @@
 .reg-frame {
   position: absolute;
   width: 53.64%;
-  top: 195px;
+  /* top: 195px; */
+  bottom: 150px;
   right: 40.01%;
   left: 6.35%;
   height: 308px;
 }
 .bottom-frame {
   width: 100%;
-  top: 1553px;
+  top: 200vh;
   right: 0;
   left: 0;
-  height: 609px;
+  height: 100vh;
   font-size: var(--font-size-31xl);
 }
 .origin {
   position: relative;
   background: linear-gradient(180.12deg, #0fc7a4, #003329);
   width: 100%;
-  height: 2160px;
+  height: 300vh;
   overflow: hidden;
   text-align: center;
   font-size: 80px;
