@@ -1,0 +1,393 @@
+.hill1-icon {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  object-fit: cover;
+}
+.embark-on-your {
+  align-self: stretch;
+  position: relative;
+}
+.button1-child {
+  position:absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing:border-box;
+  width: 200px;
+  height: 75px;
+}
+
+.button1-child:hover{
+  border: 5px solid var(--color-darkslategray-100);
+}
+.explore {
+  position: absolute;
+  bottom: 22px;
+  left: calc(50% - 92px);
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inter);
+  color: var(--color-darkslategray-100);
+  text-align: center;
+}
+
+.button1-item {
+  position: absolute;
+  bottom: 25.95px;
+  left: calc(50% + 50px);
+  width: 30px;
+  height: 22.09px;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 200px;
+  height: 75px;
+  align-self: center;
+  justify-items: flex-start;
+}
+
+.embark-on-your-dream-journey-parent {
+  position: absolute;
+  top: 237px;
+  left: calc(50% - 470px);
+  width: 939.11px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.logo {
+  position: absolute;
+  top: 33px;
+  left: 88px;
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-ingrid-darling);
+  color: var(--color-darkslategray-100);
+}
+.hero-frame {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height:100vh;
+  overflow: hidden;
+}
+.what-our-travelers {
+  position: absolute;
+  width: 56%;
+  top: 0;
+  left: 22.93%;
+  font-size: var(--font-size-31xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  display: inline-block;
+}
+.f1-icon {
+  position: absolute;
+  top: 90px;
+  right: 31px;
+  border-radius: var(--br-11xl);
+  width: 283px;
+  height: 345px;
+}
+.mask-group-icon {
+  position: absolute;
+  top: 0;
+  right: 84px;
+  width: 178px;
+  height: 180px;
+  object-fit: cover;
+  mix-blend-mode: normal;
+}
+.i-had-the {
+  top: 263px;
+  right: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 221px;
+}
+.evan-white,
+.i-had-the,
+.t1 {
+  position: absolute;
+}
+.evan-white {
+  top: 200px;
+  right: 73px;
+  font-size: var(--font-size-21xl);
+  line-height: 100%;
+  color: var(--color-darkslategray-100);
+  text-align: left;
+}
+.t1 {
+  top: 139px;
+  left: 130px;
+  width: 345px;
+  height: 450px;
+}
+.their-travel-guides {
+  position: absolute;
+  top: 263px;
+  left: calc(50% - 110.5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 221px;
+}
+.salena-dean {
+  position: absolute;
+  top: 200px;
+  left: calc(50% - 112.5px);
+  font-size: var(--font-size-21xl);
+  line-height: 100%;
+  color: var(--color-darkslategray-100);
+}
+.t2 {
+  position: absolute;
+  top: 139px;
+  left: calc(50% - 173px);
+  width: 345px;
+  height: 450px;
+}
+.booking-with-them {
+  position: absolute;
+  top: 274px;
+  right: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 221px;
+}
+.john-doe {
+  top: 200px;
+  left: calc(50% - 84.5px);
+  font-size: var(--font-size-21xl);
+  line-height: 100%;
+  color: var(--color-darkslategray-100);
+  text-align: left;
+}
+.john-doe,
+.more,
+.t3 {
+  position: absolute;
+}
+.t3 {
+  top: 139px;
+  right: 130px;
+  width: 345px;
+  height: 450px;
+}
+.more {
+  right: 46px;
+  bottom: 0;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+}
+.button2,
+.button2-child {
+  position: absolute;
+  right: -1.5px;
+  bottom: 3.95px;
+  width: 36.5px;
+  height: 22.09px;
+}
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 50px;
+  right: 179px;
+  bottom: 0;
+  width: 115px;
+  height: 30px;
+}
+
+.button2:hover{
+  background-color: #003329;
+}
+
+.mid-frame {
+  position: absolute;
+  width: 100%;
+  /* top: 815px; */
+  top: 890px;
+  right: 0;
+  left: 0;
+  /* height: 652px; */
+  height: 100vh;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
+}
+.get-exclusive-travel,
+.join-our-travel {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.get-exclusive-travel {
+  font-size: var(--font-size-6xl);
+}
+.travimg-1-icon {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-11xl);
+  max-width: 100%;
+  overflow: hidden;
+  height: 400px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.join-our-travel-community-parent {
+  position: absolute;
+  width: 95.9%;
+  top: 0;
+  right: 2.09%;
+  left: 2.01%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.bottom-frame-child {
+  position: absolute;
+  width: 100%;
+  top: 586px;
+  right: 0;
+  left: 0;
+  background-color: #024538;
+  height: 23px;
+}
+.container,
+.register {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container {
+  width: 100%;
+  right: 0;
+  border-radius: var(--br-11xl);
+  background-color: rgba(217, 217, 217, 0.08);
+  backdrop-filter: blur(70px);
+  height: 308px;
+}
+.register {
+  width: 67.12%;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.button3-child {
+  position: absolute;
+  width: 24.66%;
+  top: 3.95px;
+  right: -0.69%;
+  left: 76.03%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 22.09px;
+}
+.button3,
+.email,
+.name {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 30px;
+}
+.button3 {
+  cursor: pointer;
+  padding: 0;
+  width: 28.19%;
+  top: 246px;
+  right: 8.49%;
+  left: 63.32%;
+}
+
+.button3:hover>.button3-child{
+  color: #003329;
+  display: none;
+}
+.button3:hover>.register{
+  color: #003329;
+}
+
+.email,
+.name {
+  font-family: var(--font-inter);
+  font-size: var(--font-size-6xl);
+  top: 65px;
+  left: 42.08px;
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 324px;
+}
+.email {
+  top: 139px;
+}
+.reg-frame-child,
+.reg-frame-item {
+  position: absolute;
+  width: 56.47%;
+  top: 107.5px;
+  right: 36.87%;
+  left: 6.66%;
+  border-top: 3px solid var(--color-white);
+  box-sizing: border-box;
+  height: 3px;
+}
+.reg-frame-item {
+  top: 181.5px;
+  right: 35.66%;
+  left: 7.87%;
+}
+.bottom-frame,
+.reg-frame {
+  position: absolute;
+  width: 53.64%;
+  top: 195px;
+  right: 40.01%;
+  left: 6.35%;
+  height: 308px;
+}
+.bottom-frame {
+  width: 100%;
+  top: 1553px;
+  right: 0;
+  left: 0;
+  height: 609px;
+  font-size: var(--font-size-31xl);
+}
+.origin {
+  position: relative;
+  background: linear-gradient(180.12deg, #0fc7a4, #003329);
+  width: 100%;
+  height: 2160px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 80px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

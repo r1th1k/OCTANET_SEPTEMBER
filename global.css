@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-roboto: Roboto;
+  --font-ingrid-darling: "Ingrid Darling";
+
+  /* font sizes */
+  --font-size-6xl: 25px;
+  --font-size-31xl: 50px;
+  --font-size-21xl: 40px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkslategray-100: #003329;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+}
